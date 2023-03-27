@@ -1,0 +1,22 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+}
+.all_product {
+    display: flex;
+    gap: 1rem;
+}
+.cart_btn {
+    display: flex;
+    flex-direction: column;
+}
+.cart_btn button {
+    margin-bottom: 16px;
+}
+.cart_product {
+    background-color: beige;
+    padding: 2rem;
+    height: 351px;
+    border-radius: 8px;
+}
